@@ -15,5 +15,5 @@ RUN dotnet workload restore
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0
 WORKDIR /app
-COPY --from=build-env /app/out .
+COPY --from=build /app .
 ENTRYPOINT [ "dotnet" ,"AspireApp1.AppHost.dll"]
