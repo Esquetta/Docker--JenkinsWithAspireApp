@@ -1,0 +1,9 @@
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.Tests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_AspireApp1.Tests
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_AspireApp1.Tests
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.Tests\obj\Debug\net8.0\AspireApp1.Tests.csproj.AssemblyReference.cache
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.Tests\obj\Debug\net8.0\AspireApp1.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.Tests\obj\Debug\net8.0\AspireApp1.Tests.AssemblyInfoInputs.cache
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.Tests\obj\Debug\net8.0\AspireApp1.Tests.AssemblyInfo.cs
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.Tests\obj\Debug\net8.0\AspireApp1.Tests.csproj.CoreCompileInputs.cache
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.Tests\obj\Debug\net8.0\Aspire\references\.ProjectMetadata.g.cs
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.Tests\obj\Debug\net8.0\Aspire\references\_AppHost.ProjectMetadata.g.cs
