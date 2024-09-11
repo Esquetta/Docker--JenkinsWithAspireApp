@@ -5,7 +5,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
 # Copy the project files
-COPY "AppHost\AspireApp1.AppHost.csproj .
+COPY " .
 
 # Restore the dependencies
 RUN dotnet publish --no-restore -c Release -o out
