@@ -2,21 +2,18 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 
 # Set working directory
-WORKDIR /src
+WORKDIR /app
 
 # Copy the project files
-COPY ["AspireApp1.AppHost.csproj", "./"]
+COPY ".csproj .
 
 # Restore the dependencies
-RUN --mount=type=cache,id=nuget,target=/root/.nuget/packages \
-    dotnet restore
+RUN dotnet publish --no-restore -c Release -o out
 
 # Restore missing workloads (add this step)
 RUN dotnet workload restore
 
-# Copy the rest of your application
-COPY . .
-
-# Publish the application for the specified architecture (use x64 for amd64 architecture)
-RUN --mount=type=cache,id=nuget,target=/root/.nuget/packages \
-    dotnet publish -a x64 --use-current-runtime --self-contained false -o /app
+FROM mcr.microsoft.com/dotnet/sdk:8.0
+WORKDIR /app
+COPY --from=build-env /app/out .
+ENTRYPOINT [ "dotnet" ,"AspireApp1.AppHost.dll"]
