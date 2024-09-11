@@ -5,7 +5,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
 # Copy the project files
-COPY " .
+COPY ". ./
 
 # Restore the dependencies
 RUN dotnet publish --no-restore -c Release -o out
