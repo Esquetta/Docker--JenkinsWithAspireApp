@@ -1,6 +1,0 @@
-services:
-  aspireapp1.web:
-    image: ${DOCKER_REGISTRY-}aspireapp1web
-    build:
-      context: .
-      dockerfile: AspireApp1.Web/Dockerfile

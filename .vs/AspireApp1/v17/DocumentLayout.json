@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{2BC55CA0-4196-4576-AF44-F7C447DC9221}|AspireApp1.Web\\AspireApp1.Web.csproj|solutionrelative:aspireapp1.web\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C004EC7-6C09-4CA0-A4E0-52E0BE126885}|docker-compose.dcproj|d:\\workstation\\docker\\dockerjenkinsgithub\\aspireapp1\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0C004EC7-6C09-4CA0-A4E0-52E0BE126885}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{0C004EC7-6C09-4CA0-A4E0-52E0BE126885}|docker-compose.dcproj|d:\\workstation\\docker\\dockerjenkinsgithub\\aspireapp1\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0C004EC7-6C09-4CA0-A4E0-52E0BE126885}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2BC55CA0-4196-4576-AF44-F7C447DC9221}|AspireApp1.Web\\AspireApp1.Web.csproj|d:\\workstation\\docker\\dockerjenkinsgithub\\aspireapp1\\aspireapp1.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -22,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "D:\\Workstation\\Docker\\DockerJenkinsGithub\\AspireApp1\\AspireApp1.Web\\Dockerfile",
-              "RelativeDocumentMoniker": "AspireApp1.Web\\Dockerfile",
-              "ToolTip": "D:\\Workstation\\Docker\\DockerJenkinsGithub\\AspireApp1\\AspireApp1.Web\\Dockerfile",
-              "RelativeToolTip": "AspireApp1.Web\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-12T16:28:16.771Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -68,14 +55,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "docker-compose",
-              "DocumentMoniker": "D:\\Workstation\\Docker\\DockerJenkinsGithub\\AspireApp1\\docker-compose.dcproj",
-              "RelativeDocumentMoniker": "docker-compose.dcproj",
-              "ToolTip": "D:\\Workstation\\Docker\\DockerJenkinsGithub\\AspireApp1\\docker-compose.dcproj",
-              "RelativeToolTip": "docker-compose.dcproj",
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\Workstation\\Docker\\DockerJenkinsGithub\\AspireApp1\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\Workstation\\Docker\\DockerJenkinsGithub\\AspireApp1\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-09-12T16:34:21.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Workstation\\Docker\\DockerJenkinsGithub\\AspireApp1\\AspireApp1.Web\\Dockerfile",
+              "RelativeDocumentMoniker": "AspireApp1.Web\\Dockerfile",
+              "ToolTip": "D:\\Workstation\\Docker\\DockerJenkinsGithub\\AspireApp1\\AspireApp1.Web\\Dockerfile",
+              "RelativeToolTip": "AspireApp1.Web\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-12T16:28:05.907Z",
+              "WhenOpened": "2024-09-12T16:28:16.771Z",
               "EditorCaption": ""
             },
             {
@@ -88,8 +88,7 @@
               "RelativeToolTip": "AspireApp1.Web\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-12T16:26:28.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T16:26:28.345Z"
             }
           ]
         }
