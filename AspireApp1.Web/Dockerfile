@@ -10,12 +10,13 @@ COPY *.csproj .
 
 RUN dotnet restore
 
+COPY . ./
 
 RUN dotnet publish --no-restore -c Release -o out
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime 
 
 WORKDIR /app
-COPY --from=runtime /app/out .
+COPY --from=base /app/out .
 ENTRYPOINT ["dotnet", "AspireApp1.Web.dll"]
 
 
