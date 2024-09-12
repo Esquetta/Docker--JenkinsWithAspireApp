@@ -1,7 +1,7 @@
 # See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
 # This stage is used when running from VS in fast mode (Default for Debug configuration)
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS base
 
 WORKDIR /app
 
@@ -12,7 +12,7 @@ RUN dotnet restore
 
 
 RUN dotnet publish --no-restore -c Release -o out
-FROM mcr.microsoft.com/dotnet/core/aspnet:8.0.0-bookworm-slim-amd64 AS runtime 
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime 
 
 WORKDIR /app
 COPY --from=publish /app/publish .
