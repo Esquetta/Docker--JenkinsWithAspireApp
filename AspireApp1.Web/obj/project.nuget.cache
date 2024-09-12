@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "IKzE2sAYUsM=",
+  "dgSpecHash": "8ECJ4sza/SM=",
   "success": true,
   "projectFilePath": "D:\\Workstation\\Docker\\DockerJenkinsGithub\\AspireApp1\\AspireApp1.Web\\AspireApp1.Web.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,7 @@
     "C:\\Users\\fb_52\\.nuget\\packages\\microsoft.extensions.telemetry\\8.7.0\\microsoft.extensions.telemetry.8.7.0.nupkg.sha512",
     "C:\\Users\\fb_52\\.nuget\\packages\\microsoft.extensions.telemetry.abstractions\\8.7.0\\microsoft.extensions.telemetry.abstractions.8.7.0.nupkg.sha512",
     "C:\\Users\\fb_52\\.nuget\\packages\\microsoft.io.recyclablememorystream\\3.0.0\\microsoft.io.recyclablememorystream.3.0.0.nupkg.sha512",
+    "C:\\Users\\fb_52\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512",
     "C:\\Users\\fb_52\\.nuget\\packages\\opentelemetry\\1.9.0\\opentelemetry.1.9.0.nupkg.sha512",
     "C:\\Users\\fb_52\\.nuget\\packages\\opentelemetry.api\\1.9.0\\opentelemetry.api.1.9.0.nupkg.sha512",
     "C:\\Users\\fb_52\\.nuget\\packages\\opentelemetry.api.providerbuilderextensions\\1.9.0\\opentelemetry.api.providerbuilderextensions.1.9.0.nupkg.sha512",
@@ -51,7 +52,10 @@
     "C:\\Users\\fb_52\\.nuget\\packages\\polly.ratelimiting\\8.4.1\\polly.ratelimiting.8.4.1.nupkg.sha512",
     "C:\\Users\\fb_52\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
     "C:\\Users\\fb_52\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
-    "C:\\Users\\fb_52\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
+    "C:\\Users\\fb_52\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512",
+    "C:\\Users\\fb_52\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\8.0.8\\microsoft.netcore.app.runtime.linux-x64.8.0.8.nupkg.sha512",
+    "C:\\Users\\fb_52\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\8.0.8\\microsoft.netcore.app.host.linux-x64.8.0.8.nupkg.sha512",
+    "C:\\Users\\fb_52\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\8.0.8\\microsoft.aspnetcore.app.runtime.linux-x64.8.0.8.nupkg.sha512"
   ],
   "logs": []
 }
