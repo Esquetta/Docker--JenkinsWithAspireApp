@@ -4,8 +4,8 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 WORKDIR /app
 
-COPY AspireApp1.Web/*.csproj ./AspireApp1.Web/
-RUN dotnet restore ./AspireApp1.Web/AspireApp1.Web.csproj
+COPY *.csproj .
+RUN dotnet restore 
 
 COPY . ./
 RUN dotnet publish  --no-restore -c Release -o out
