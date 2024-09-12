@@ -8,11 +8,11 @@ COPY AspireApp1.Web/*.csproj ./AspireApp1.Web/
 RUN dotnet restore ./AspireApp1.Web/AspireApp1.Web.csproj
 
 COPY . ./
-RUN dotnet publish ./AspireApp1.Web/AspireApp1.Web.csproj --no-restore -c Release -o /app/publish
+RUN dotnet publish  --no-restore -c Release -o out
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 
 WORKDIR /app
-COPY --from=build-env /app/publish .
+COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet", "AspireApp1.Web.dll"]
 
 
