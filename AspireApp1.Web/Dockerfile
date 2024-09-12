@@ -2,22 +2,19 @@
 
 # This stage is used when running from VS in fast mode (Default for Debug configuration)
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
-
 WORKDIR /app
 
-COPY *.csproj .
-
-
-RUN dotnet restore
+COPY AspireApp1.Web/*.csproj ./AspireApp1.Web/
+RUN dotnet restore ./AspireApp1.Web/AspireApp1.Web.csproj
 
 COPY . ./
-
-RUN dotnet publish --no-restore -c Release -o /app/publish
+RUN dotnet publish ./AspireApp1.Web/AspireApp1.Web.csproj --no-restore -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 
 WORKDIR /app
 COPY --from=build-env /app/publish .
 ENTRYPOINT ["dotnet", "AspireApp1.Web.dll"]
+
 
 
 
