@@ -12,12 +12,7 @@ RUN apk add --no-cache icu-libs
 ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false
 
 # Build the application based on architecture
-RUN --mount=type=cache,id=nuget,target=/root/.nuget/packages \
-    if [ "$TARGETARCH" = "amd64" ]; then \
-        dotnet publish -r linux-x64 --use-current-runtime --self-contained false -o /app; \
-    else \
-        dotnet publish -r linux-$TARGETARCH --use-current-runtime --self-contained false -o /app; \
-    fi
+RUN  dotnet publish -c Release -o out
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0-alpine AS final
 WORKDIR /app
