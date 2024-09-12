@@ -12,7 +12,7 @@ RUN dotnet restore
 
 
 RUN dotnet publish --no-restore -c Release -o out
-FROM mcr.microsoft.com/dotnet/core/aspnet:8.0 AS runtime 
+FROM mcr.microsoft.com/dotnet/core/aspnet:8.0.0-bookworm-slim-amd64 AS runtime 
 
 WORKDIR /app
 COPY --from=publish /app/publish .
