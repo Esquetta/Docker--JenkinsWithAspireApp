@@ -7,7 +7,7 @@ WORKDIR /app
 COPY AspireApp1.Web/*.csproj ./AspireApp1.Web/
 RUN dotnet restore ./AspireApp1.Web/AspireApp1.Web.csproj
 
-COPY ./ .
+COPY . ./
 RUN dotnet publish ./AspireApp1.Web/AspireApp1.Web.csproj --no-restore -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 
