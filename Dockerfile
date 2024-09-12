@@ -11,6 +11,8 @@ ARG TARGETARCH
 RUN apk add --no-cache icu-libs
 ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false
 
+RUN dotnet workload install aspire
+
 # Build the application based on architecture
 RUN  dotnet publish -c Release -o out
 
