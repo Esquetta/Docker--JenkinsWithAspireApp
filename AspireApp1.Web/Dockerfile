@@ -15,8 +15,10 @@ RUN dotnet publish --no-restore -c Release -o out
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime 
 
 WORKDIR /app
-COPY --from=publish /app/publish .
+COPY --from=base /app/out .
 ENTRYPOINT ["dotnet", "AspireApp1.Web.dll"]
+
+
 
 # # This stage is used to build the service project
 # FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
