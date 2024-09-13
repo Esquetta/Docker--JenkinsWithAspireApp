@@ -60,3 +60,4 @@ D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.ApiService\obj\D
 D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.ApiService\obj\Debug\net8.0\AspireApp1.ApiService.pdb
 D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.ApiService\obj\Debug\net8.0\AspireApp1.ApiService.genruntimeconfig.cache
 D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.ApiService\obj\Debug\net8.0\ref\AspireApp1.ApiService.dll
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.ApiService\obj\Debug\net8.0\AspireApp1.ApiService.sourcelink.json

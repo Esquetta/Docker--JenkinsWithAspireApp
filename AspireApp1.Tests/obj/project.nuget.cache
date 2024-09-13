@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "q8K0VQRIIeI=",
+  "dgSpecHash": "zM6NvT6JV8o=",
   "success": true,
   "projectFilePath": "D:\\Workstation\\Docker\\DockerJenkinsGithub\\AspireApp1\\AspireApp1.Tests\\AspireApp1.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fb_52\\.nuget\\packages\\aspire.hosting\\8.2.0\\aspire.hosting.8.2.0.nupkg.sha512",
-    "C:\\Users\\fb_52\\.nuget\\packages\\aspire.hosting.apphost\\8.1.0\\aspire.hosting.apphost.8.1.0.nupkg.sha512",
+    "C:\\Users\\fb_52\\.nuget\\packages\\aspire.hosting.apphost\\8.2.0\\aspire.hosting.apphost.8.2.0.nupkg.sha512",
     "C:\\Users\\fb_52\\.nuget\\packages\\aspire.hosting.testing\\8.2.0\\aspire.hosting.testing.8.2.0.nupkg.sha512",
     "C:\\Users\\fb_52\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\fb_52\\.nuget\\packages\\fractions\\7.3.0\\fractions.7.3.0.nupkg.sha512",

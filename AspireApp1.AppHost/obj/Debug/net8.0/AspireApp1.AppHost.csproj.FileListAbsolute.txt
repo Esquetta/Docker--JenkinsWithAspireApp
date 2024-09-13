@@ -50,3 +50,8 @@ D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.AppHost\obj\Debu
 D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.AppHost\obj\Debug\net8.0\AspireApp1.AppHost.pdb
 D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.AppHost\obj\Debug\net8.0\AspireApp1.AppHost.genruntimeconfig.cache
 D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.AppHost\obj\Debug\net8.0\ref\AspireApp1.AppHost.dll
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.AppHost\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.AppHost\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.AppHost\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.AppHost\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.AppHost\obj\Debug\net8.0\AspireApp1.AppHost.sourcelink.json

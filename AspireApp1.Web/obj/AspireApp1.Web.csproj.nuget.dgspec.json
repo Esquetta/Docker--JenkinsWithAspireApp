@@ -52,11 +52,11 @@
           "dependencies": {
             "Microsoft.Extensions.Http.Resilience": {
               "target": "Package",
-              "version": "[8.7.0, )"
+              "version": "[8.9.1, )"
             },
             "Microsoft.Extensions.ServiceDiscovery": {
               "target": "Package",
-              "version": "[8.1.0, )"
+              "version": "[8.2.0, )"
             },
             "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
               "target": "Package",

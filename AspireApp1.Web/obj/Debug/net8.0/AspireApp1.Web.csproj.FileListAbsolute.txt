@@ -64,3 +64,4 @@ D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.Web\obj\Debug\ne
 D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.Web\obj\Debug\net8.0\AspireApp1.Web.pdb
 D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.Web\obj\Debug\net8.0\AspireApp1.Web.genruntimeconfig.cache
 D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.Web\obj\Debug\net8.0\ref\AspireApp1.Web.dll
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.Web\obj\Debug\net8.0\AspireApp1.Web.sourcelink.json

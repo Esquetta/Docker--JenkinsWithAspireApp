@@ -10,3 +10,4 @@ D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.ServiceDefaults\
 D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.ServiceDefaults\obj\Debug\net8.0\refint\AspireApp1.ServiceDefaults.dll
 D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.ServiceDefaults\obj\Debug\net8.0\AspireApp1.ServiceDefaults.pdb
 D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.ServiceDefaults\obj\Debug\net8.0\ref\AspireApp1.ServiceDefaults.dll
+D:\Workstation\Docker\DockerJenkinsGithub\AspireApp1\AspireApp1.ServiceDefaults\obj\Debug\net8.0\AspireApp1.ServiceDefaults.sourcelink.json
