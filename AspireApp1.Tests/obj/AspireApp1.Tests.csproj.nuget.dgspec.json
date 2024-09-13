@@ -127,11 +127,11 @@
           "dependencies": {
             "Aspire.Hosting.Testing": {
               "target": "Package",
-              "version": "[8.1.0, )"
+              "version": "[8.2.0, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.10.0, )"
+              "version": "[17.11.1, )"
             },
             "coverlet.collector": {
               "target": "Package",

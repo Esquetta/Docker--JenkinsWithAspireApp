@@ -52,7 +52,7 @@
           "dependencies": {
             "Aspire.Hosting.AppHost": {
               "target": "Package",
-              "version": "[8.1.0, )"
+              "version": "[8.2.0, )"
             }
           },
           "imports": [
