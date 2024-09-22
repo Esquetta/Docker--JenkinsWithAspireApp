@@ -21,7 +21,7 @@ WORKDIR /app
 
 COPY --from=build /source .
 
-USER $APP_UID
+# USER $APP_UID
 
 ENTRYPOINT ["dotnet", "AspireApp1.AppHost.dll"]
 
