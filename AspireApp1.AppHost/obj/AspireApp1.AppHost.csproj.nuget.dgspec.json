@@ -50,19 +50,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Aspire.Dashboard.Sdk.win-x64": {
+            "Aspire.Dashboard.Sdk.linux-x64": {
               "target": "Package",
-              "version": "[8.2.0, )",
-              "autoReferenced": true
+              "version": "[8.2.0, )"
             },
             "Aspire.Hosting.AppHost": {
               "target": "Package",
               "version": "[8.2.0, )"
             },
-            "Aspire.Hosting.Orchestration.win-x64": {
+            "Aspire.Hosting.Orchestration.linux-x64": {
               "target": "Package",
-              "version": "[8.2.0, )",
-              "autoReferenced": true
+              "version": "[8.2.0, )"
             }
           },
           "imports": [

@@ -2,15 +2,15 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Aspire.Dashboard.Sdk.win-x64/8.2.0": {
+      "Aspire.Dashboard.Sdk.linux-x64/8.2.0": {
         "type": "package",
         "build": {
-          "buildTransitive/Aspire.Dashboard.Sdk.win-x64.props": {},
-          "buildTransitive/Aspire.Dashboard.Sdk.win-x64.targets": {}
+          "buildTransitive/Aspire.Dashboard.Sdk.linux-x64.props": {},
+          "buildTransitive/Aspire.Dashboard.Sdk.linux-x64.targets": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/Aspire.Dashboard.Sdk.win-x64.props": {},
-          "buildMultiTargeting/Aspire.Dashboard.Sdk.win-x64.targets": {}
+          "buildMultiTargeting/Aspire.Dashboard.Sdk.linux-x64.props": {},
+          "buildMultiTargeting/Aspire.Dashboard.Sdk.linux-x64.targets": {}
         }
       },
       "Aspire.Hosting/8.2.0": {
@@ -123,13 +123,13 @@
           "buildMultiTargeting/Aspire.Hosting.AppHost.targets": {}
         }
       },
-      "Aspire.Hosting.Orchestration.win-x64/8.2.0": {
+      "Aspire.Hosting.Orchestration.linux-x64/8.2.0": {
         "type": "package",
         "build": {
-          "buildTransitive/Aspire.Hosting.Orchestration.win-x64.targets": {}
+          "buildTransitive/Aspire.Hosting.Orchestration.linux-x64.targets": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/Aspire.Hosting.Orchestration.win-x64.targets": {}
+          "buildMultiTargeting/Aspire.Hosting.Orchestration.linux-x64.targets": {}
         }
       },
       "Aspire.Hosting.Testing/8.2.0": {
@@ -1879,9 +1879,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Aspire.Dashboard.Sdk.win-x64": "8.2.0",
+          "Aspire.Dashboard.Sdk.linux-x64": "8.2.0",
           "Aspire.Hosting.AppHost": "8.2.0",
-          "Aspire.Hosting.Orchestration.win-x64": "8.2.0"
+          "Aspire.Hosting.Orchestration.linux-x64": "8.2.0"
         },
         "compile": {
           "bin/placeholder/AspireApp1.AppHost.dll": {}
@@ -1893,28 +1893,29 @@
     }
   },
   "libraries": {
-    "Aspire.Dashboard.Sdk.win-x64/8.2.0": {
-      "sha512": "DeflHh+jhRzYctlvOxJ+lRCWZs3LKNYeBXHLltF5+MuILOneWpG1tR2PLC5WXv/oCD4mdckz5DYWiEpLm7MS6A==",
+    "Aspire.Dashboard.Sdk.linux-x64/8.2.0": {
+      "sha512": "qLm5/6636vFXbvM6uCX6kVp7fnxBUJlCkNEgaEty1Mam3dHcm2W1FhkVaV6kKqmqcAE+NEbdYfa+IBZCNpOqLA==",
       "type": "package",
-      "path": "aspire.dashboard.sdk.win-x64/8.2.0",
+      "path": "aspire.dashboard.sdk.linux-x64/8.2.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Aspire.Dashboard.Sdk.win-x64.targets",
+        "Aspire.Dashboard.Sdk.linux-x64.targets",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
-        "aspire.dashboard.sdk.win-x64.8.2.0.nupkg.sha512",
-        "aspire.dashboard.sdk.win-x64.nuspec",
-        "build/Aspire.Dashboard.Sdk.win-x64.props",
-        "build/Aspire.Dashboard.Sdk.win-x64.targets",
-        "buildMultiTargeting/Aspire.Dashboard.Sdk.win-x64.props",
-        "buildMultiTargeting/Aspire.Dashboard.Sdk.win-x64.targets",
-        "buildTransitive/Aspire.Dashboard.Sdk.win-x64.props",
-        "buildTransitive/Aspire.Dashboard.Sdk.win-x64.targets",
+        "aspire.dashboard.sdk.linux-x64.8.2.0.nupkg.sha512",
+        "aspire.dashboard.sdk.linux-x64.nuspec",
+        "build/Aspire.Dashboard.Sdk.linux-x64.props",
+        "build/Aspire.Dashboard.Sdk.linux-x64.targets",
+        "buildMultiTargeting/Aspire.Dashboard.Sdk.linux-x64.props",
+        "buildMultiTargeting/Aspire.Dashboard.Sdk.linux-x64.targets",
+        "buildTransitive/Aspire.Dashboard.Sdk.linux-x64.props",
+        "buildTransitive/Aspire.Dashboard.Sdk.linux-x64.targets",
+        "data/UnixFilePermissions.xml",
+        "tools/Aspire.Dashboard",
         "tools/Aspire.Dashboard.deps.json",
         "tools/Aspire.Dashboard.dll",
-        "tools/Aspire.Dashboard.exe",
         "tools/Aspire.Dashboard.runtimeconfig.json",
         "tools/Aspire.Dashboard.xml",
         "tools/Google.Protobuf.dll",
@@ -1959,7 +1960,6 @@
         "tools/pt-BR/Aspire.Dashboard.resources.dll",
         "tools/ru/Aspire.Dashboard.resources.dll",
         "tools/tr/Aspire.Dashboard.resources.dll",
-        "tools/web.config",
         "tools/wwwroot/Aspire.Dashboard.modules.json",
         "tools/wwwroot/Aspire.Dashboard.styles.css",
         "tools/wwwroot/Components/Controls/Chart/MetricTable.razor.js",
@@ -2063,27 +2063,28 @@
         "lib/net8.0/Aspire.Hosting.AppHost.xml"
       ]
     },
-    "Aspire.Hosting.Orchestration.win-x64/8.2.0": {
-      "sha512": "a+rjsfmMkViaIJnUq1/tytOt2xuAGYaWoIuaYuentnf4n/VLis+7Ng7SdmohQz7viIqEi1CBNorI60D2w1722g==",
+    "Aspire.Hosting.Orchestration.linux-x64/8.2.0": {
+      "sha512": "wUuvt+iLn/sf1RQgzycdaU4B4L70xlZUT2upVOsRUIYBLXQkmYL9RMZU58069UfekM6rApMAW+M6oziOaR6EnQ==",
       "type": "package",
-      "path": "aspire.hosting.orchestration.win-x64/8.2.0",
+      "path": "aspire.hosting.orchestration.linux-x64/8.2.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "Aspire.Hosting.Orchestration.win-x64.targets",
+        "Aspire.Hosting.Orchestration.linux-x64.targets",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
-        "aspire.hosting.orchestration.win-x64.8.2.0.nupkg.sha512",
-        "aspire.hosting.orchestration.win-x64.nuspec",
-        "build/Aspire.Hosting.Orchestration.win-x64.targets",
-        "buildMultiTargeting/Aspire.Hosting.Orchestration.win-x64.targets",
-        "buildTransitive/Aspire.Hosting.Orchestration.win-x64.targets",
+        "aspire.hosting.orchestration.linux-x64.8.2.0.nupkg.sha512",
+        "aspire.hosting.orchestration.linux-x64.nuspec",
+        "build/Aspire.Hosting.Orchestration.linux-x64.targets",
+        "buildMultiTargeting/Aspire.Hosting.Orchestration.linux-x64.targets",
+        "buildTransitive/Aspire.Hosting.Orchestration.linux-x64.targets",
+        "data/UnixFilePermissions.xml",
         "tools/EULA.rtf",
         "tools/NOTICE",
-        "tools/dcp.exe",
-        "tools/ext/bin/dcpproc.exe",
-        "tools/ext/dcpctrl.exe"
+        "tools/dcp",
+        "tools/ext/bin/dcpproc",
+        "tools/ext/dcpctrl"
       ]
     },
     "Aspire.Hosting.Testing/8.2.0": {
