@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "wBjqfJ2TT2I=",
+  "dgSpecHash": "iX4aKDL5B/E=",
   "success": true,
   "projectFilePath": "D:\\Workstation\\Docker\\DockerJenkinsGithub\\AspireApp1\\AspireApp1.AppHost\\AspireApp1.AppHost.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\fb_52\\.nuget\\packages\\aspire.dashboard.sdk.win-x64\\8.2.0\\aspire.dashboard.sdk.win-x64.8.2.0.nupkg.sha512",
     "C:\\Users\\fb_52\\.nuget\\packages\\aspire.hosting\\8.2.0\\aspire.hosting.8.2.0.nupkg.sha512",
     "C:\\Users\\fb_52\\.nuget\\packages\\aspire.hosting.apphost\\8.2.0\\aspire.hosting.apphost.8.2.0.nupkg.sha512",
+    "C:\\Users\\fb_52\\.nuget\\packages\\aspire.hosting.orchestration.win-x64\\8.2.0\\aspire.hosting.orchestration.win-x64.8.2.0.nupkg.sha512",
     "C:\\Users\\fb_52\\.nuget\\packages\\fractions\\7.3.0\\fractions.7.3.0.nupkg.sha512",
     "C:\\Users\\fb_52\\.nuget\\packages\\google.protobuf\\3.27.3\\google.protobuf.3.27.3.nupkg.sha512",
     "C:\\Users\\fb_52\\.nuget\\packages\\grpc.aspnetcore\\2.65.0\\grpc.aspnetcore.2.65.0.nupkg.sha512",
