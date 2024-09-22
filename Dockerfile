@@ -19,7 +19,7 @@ RUN  dotnet publish -c Release -o out
 FROM mcr.microsoft.com/dotnet/aspnet:8.0-alpine AS final
 WORKDIR /app
 
-COPY --from=build /source .
+COPY --from=build /source/AspireApp1.AppHost/out .
 
 # USER $APP_UID
 
